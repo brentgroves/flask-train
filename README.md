@@ -1,7 +1,7 @@
 # flask-train
 conda update -n base -c defaults conda
-conda env create -f environment.yml
-conda activate flask
+conda env create -f reports.yml
+conda activate reports
 
 conda deactivate
 conda env remove --name flask
